@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Garmond-semibold;
+    src: ("EBGaramond-semibold.ttf");
+}
+
+
+
+
+h1 #tarot_font {
+    font-family:"Garmond-semibold"
+}
+
+
+
+
+
+.container {
+      margin: 1%
+
+}
+.left {float:left}
+.right {float:right}
+.clear {clear:both}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#left_container{
+  position:absolute;left;
+    left:50%;
+    width:60%;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
